@@ -1,9 +1,16 @@
-
+.text{ 
+    font-family: "Montserrat";
+    font-weight: 900;
+} 
+.navbar{
+    background-color: black; 
+    margin-bottom: 4rem;
+}
 .elipse { 
     height: 46rem;
     width: 75%;
     border-radius: 30%;
-    background-color: rgba(255, 239, 15, 0.452); 
+    background-color: rgba(243, 227, 8, 0.452); 
     z-index: -1;
     position: absolute;
     top: 0;
@@ -14,9 +21,15 @@
     left: auto; 
     top: auto;
     right: 0;  
+}  
+.footer{
+    background-color: black;
 } 
+.texto-cta{
+    font-size: 34px;
+}
 @media (max-width: 550px) {
     h1 {
         font-size: 1.5rem 
     }
-}
+} 
